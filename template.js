@@ -9,7 +9,7 @@ Template.prototype = {
         // この関数を実装してください
         var content =this.source;
         function htmlEscape(s){
-    	s=s.replace(/&/g,'&amp;');
+    		s=s.replace(/&/g,'&amp;');
 		s=s.replace(/>/g,'&gt;');
 		s=s.replace(/</g,'&lt;');
 		s=s.replace(/\"/,'&quot;');
